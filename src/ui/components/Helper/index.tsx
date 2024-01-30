@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   justify-content: start;
   flex-direction: column;
   background: #fff;
-  border: 1px solid #e9e4f7;
+  border: 1px solid #0c0f12;
   border-radius: 4px;
   box-shadow: 0px 0px 10px rgba(48, 71, 89, 0.05);
   margin: 0 0 1rem;
@@ -17,22 +17,22 @@ const Wrapper = styled.div`
 `;
 
 const HelpTable = styled.table`
-  border: 1px solid #e9e4f7;
+  border: 1px solid #0c0f12;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 12px;
   box-shadow: 0px 0px 10px rgba(48, 71, 89, 0.05);
 
   thead th {
-    background-color: #f3ebff;
+    background-color: #0e1114;
     border: 1px solid #dcc5ff;
     color: #382b5f;
     padding: 10px;
   }
 
   tbody td {
-    border: 1px solid #e9e4f7;
-    color: #333;
+    border: 1px solid #0c0f12;
+    color: #e8e8e8;
     padding: 10px;
     text-shadow: 1px 1px 1px #fff;
     text-align: center;
@@ -40,7 +40,7 @@ const HelpTable = styled.table`
 `;
 
 const HelperText = styled.div`
-  color: #3d4852;
+  color: #d4d4d4;
   padding-bottom: 10px;
   padding-top: 10px;
 `;
