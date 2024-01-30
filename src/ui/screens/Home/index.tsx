@@ -82,7 +82,7 @@ export default class Home extends Component<
         <ValuePropContainer>
           A fork of Cron expression generator by{" "}
           <a href="https://cronhub.io?utm_source=crontab&utm_medium=referral&utm_campaign=sideproject-campaign" title="crontab">
-            Cronhub, forked with <3 by Lneux
+            Cronhub, forked with love by Lneux
           </a>. Schedule and monitor jobs without any infra work.
         </ValuePropContainer>
         <Wrapper>
