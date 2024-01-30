@@ -45,7 +45,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: baseline;
   flex-direction: row;
-  background: #010409;
+  background: #0c0f12;
   border: 1px solid #11151d;
   border-radius: 4px;
   box-shadow: 0px 0px 10px rgba(48, 71, 89, 0.05);
