@@ -26,7 +26,7 @@ const HelpTable = styled.table`
   thead th {
     background-color: #0e1114;
     border: 1px solid #dcc5ff;
-    color: #382b5f;
+    color: #4a397d;
     padding: 10px;
   }
 
