@@ -45,7 +45,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: baseline;
   flex-direction: row;
-  background: #fff;
+  background: #010409;
   border: 1px solid #e9e4f7;
   border-radius: 4px;
   box-shadow: 0px 0px 10px rgba(48, 71, 89, 0.05);
@@ -80,9 +80,9 @@ export default class Home extends Component<
     return (
       <InnerContainer>
         <ValuePropContainer>
-          Cron expression generator by{" "}
+          A fork of "Cron expression generator by"{" "}
           <a href="https://cronhub.io?utm_source=crontab&utm_medium=referral&utm_campaign=sideproject-campaign" title="crontab">
-            Cronhub
+            Cronhub, forked with <3 by Lneux
           </a>. Schedule and monitor jobs without any infra work.
         </ValuePropContainer>
         <Wrapper>
