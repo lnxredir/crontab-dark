@@ -2,7 +2,7 @@ version: '3'
 services:
   cronhub:
     image: crontab-dark:latest
-    container_name: cronhub_dark
+    container_name: crontab-dark
     restart: unless-stopped
     command: sh -c "yarn && yarn start"
     ports:
