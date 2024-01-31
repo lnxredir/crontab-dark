@@ -34,7 +34,6 @@ const HelpTable = styled.table`
     border: 1px solid #0c0f12;
     color: #e8e8e8;
     padding: 10px;
-    text-shadow: 1px 1px 1px #fff;
     text-align: center;
   }
 `;
