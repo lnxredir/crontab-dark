@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cronhub:
+    image: cronhub:latest
+    container_name: cronhub_dark
+    #restart: unless-stopped
+    command: sh -c "yarn && yarn start"
+    ports:
+      - 3000:3000
